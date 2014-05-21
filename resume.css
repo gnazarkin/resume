@@ -1,20 +1,48 @@
-div{
-    border-radius:5px
-    height:100px;
-    width:100px;
-    background-color: cyan;
+*{
+	font-family: Helvetica;
+	font-color:red;
 }
 #header{
-    position:fixed;
-    z-index:1;
+	border-radius: 10px;
+	font-size: 30px;
+	color: #000000;
+	margin-left: 100px;
+	height:200px;
+	width:800px;
+	}
+#education{
+	float:left;
+	height:150px;
+	width:500px;
+	display:block;
+	position: relative;
 }
-.left{
-    float: left;
+#experience{
+	height:150px;
+	width:500px;
+	float:right;
+	display:block;
+	position: relative;
+	margin-left:40px;
 }
-.right{
-    float: right;
+#other{
+	height:150px;
+	width:1000px;
+	display:block;
+	position:fixed;
+	margin-top: 250px;
 }
-#footer{
-    clear: both;
+
+
+}
+div{
+    border-radius:5px
+    background-color: cyan;
+}
+.sub{
+	font-style: italic;
+}
+.head{
+	font-style: strong;
 }
 
